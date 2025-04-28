@@ -1,5 +1,5 @@
-# Menentukan jumlah deret Fibonacci (default 15)
-jumlah = 15 #nilai dafault
+# Menentukan jumlah deret Fibonacci (default 10)
+jumlah = 10 #nilai dafault
 user_input = input("Masukkan jumlah deret Fibonacci (enter untuk menggunakan default 10): ")
 
 # Jika ada input dari pengguna, ubah jumlah deret sesuai input
