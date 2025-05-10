@@ -1,10 +1,10 @@
-Meminta pengguna memasukkan jumlah mahasiswa
+# Meminta pengguna memasukkan jumlah mahasiswa
 jumlah_mahasiswa = int(input("Masukkan jumlah mahasiswa: "))
 
-Dictionary untuk menyimpan data
+# Dictionary untuk menyimpan data
 data_mahasiswa = {}
 
-Perulangan untuk input data setiap mahasiswa
+# Perulangan untuk input data setiap mahasiswa
 for i in range(jumlah_mahasiswa):
     print(f"\nMahasiswa ke-{i+1}")
     nim = input("Masukkan NIM: ")  # str
@@ -26,7 +26,7 @@ for i in range(jumlah_mahasiswa):
         "nilai": daftar_nilai
     }
 
-Menampilkan hasil
+# Menampilkan hasil
 print("\n=== Daftar Data Mahasiswa dan Nilai Rata-Rata ===")
 for nim, info in data_mahasiswa.items():
     nama = info["nama"]
